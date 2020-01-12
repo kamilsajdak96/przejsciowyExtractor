@@ -1,0 +1,1 @@
+QUANDL_AUTH_TOKEN = '1t-B-CeuY8bSyysx3UEj'
