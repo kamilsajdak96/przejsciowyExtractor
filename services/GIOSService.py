@@ -1,7 +1,9 @@
 import requests
+
 from enums.ERROR import ERROR
 
-def constructUrl(url, error = ERROR.GENERAL_ERROR.value, firstParam = ""):
+
+def constructUrl(url, error=ERROR.GENERAL_ERROR.value, firstParam=""):
     try:
         request = requests.get(url=url + str(firstParam)).json()
         if type(request) is list:
